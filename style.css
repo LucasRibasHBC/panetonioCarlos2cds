@@ -17,6 +17,8 @@ background-color: rgb(236, 101, 48);
 color: rgb(255, 227, 227);
 width: 100%;
 padding: 20px;
+height: 150px;
+width: 150px;
 }
 
 
@@ -75,9 +77,9 @@ text-align: center;
 }
 
 
-.estudante-imagem{
+.galeria-img{
 width: 150px;
-height: 225;
+height: 225px;
 }
 
 
@@ -100,7 +102,7 @@ display: flex;
 justify-content: space-around;
 }
 .escola{
-background-image: linear-gradient(rgb(255, 174, 110),rgb(250, 210, 179));
+background-image: linear-gradient(rgb(255, 174, 110),rgb(255, 174, 110));
 color: white;
 display: flex;
 justify-content:center;
