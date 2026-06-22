@@ -99,6 +99,14 @@ padding: 24px 0;
 text-align: center;
 padding: 24px 0;
 }
+
+
+.videos{
+width: 150px;
+height: 200px;
+}
+
+
 .estudantes_todos{
 display: flex;
 justify-content: space-around;
