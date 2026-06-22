@@ -4,7 +4,7 @@ body {
 }
 
 .cloudpng {
-    width: 150vw;
+    width: 100vw;
     height: 200px;
 }
 
@@ -21,7 +21,7 @@ body {
     height: 200px;
     justify-content: space-around;
 }
-h1 {
+#hh1 {
     color: rgb(228, 216, 111);
     text-shadow: -7px -7px 7px rgb(171, 209, 83);
 }
@@ -34,15 +34,54 @@ h1 {
 }
 
 .main {
-
+    display: flex;
+    flex-direction: column; 
     border-radius: 20px;
-    margin: 4px auto;
-    height: 350px;
+    margin: 15px auto;
+    height: 400px; 
     width: calc(100% - 8px);
     border: 3px double gold;
+    padding: 15px;
+    box-sizing: border-box; 
+}
+
+.content-row {
+    display: flex;
+    flex: 1; 
+    width: 100%;
+    gap: 10px;
+}
+
+
+.main h1 {
+    color: rgb(111, 224, 228);
+    text-shadow: -7px -7px 7px rgb(103, 224, 214);
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 .bandeiras {
     width: 100px;
     height: 50px;
+}
+
+.mainim {
+    height: 300px;
+    width: 400px;
+    object-fit: contain;
+}
+
+.right {
+    flex: 1; 
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.left {
+    color: white;
+    flex: 2; 
+    height: 100%;
 }
