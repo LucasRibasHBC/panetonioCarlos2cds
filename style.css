@@ -11,23 +11,39 @@ background-color: rgb(245, 216, 179);
 
 
 
-
-
-header{
-background-color: rgb(192, 192, 192);
-color: rgb(0, 0, 0);
-width: 100%;
-padding: 20px;
+.banner1 {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  max-width: 100%;
+  width: 100%;
+  margin: 20px auto;
 }
 
 
-
-.cabecalho-itens{
-max-width: 1980px;
-margin: 0 auto;
-display: flex;
-align-items: center;
+.escola-image {
+  max-width: 100%;
+  height: auto;
 }
+
+
+header {
+  background-color: rgb(192, 192, 192);
+  color: rgb(0, 0, 0);
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box; 
+}
+
+.cabecalho-itens {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+
 .cabecalho-imagem{
 width: 10%;
 display: flex;
@@ -47,20 +63,6 @@ justify-content: flex-end;
 width: 25%;
 height: 20%;
 padding-right: 30px;
-}
-
-
-
-
-
-
-
-.banner1{
-display: flex;
-justify-content: center;
-height: 629px;
-width: 1438px;
-margin-left: 200px;
 }
 
 
@@ -111,6 +113,9 @@ height: 200px;
 display: flex;
 justify-content: space-around;
 }
+
+
+
 .escola{
 background-image: linear-gradient(rgb(250, 232, 218),rgb(196, 192, 190));
 color: rgb(0, 0, 0);
